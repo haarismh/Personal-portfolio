@@ -7,7 +7,7 @@ function App() {
       title: "Student Syllabus System",
       description: "A web application where students can access all semester syllabi in one convenient place.",
       tech: ["HTML", "CSS", "JavaScript", "MySQL"],
-      link: "https://student-syllabus-system.onrender.com"
+      link: "https://student-syllabus-system.vercel.app/"
     },
     {
       title: "Task Management App",
