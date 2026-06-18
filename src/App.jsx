@@ -16,10 +16,10 @@ function App() {
       link: "https://client-lead-management-system-green.vercel.app/"
     },
     {
-      title: "Weather Dashboard",
-      description: "Interactive real-time weather forecasting application using third-party APIs with dynamic location tracking.",
-      tech: ["JavaScript", "HTML", "CSS", "API"],
-      link: "#"
+      title: "Driving Game",
+      description: "An interactive driving game built with React and Canvas API, featuring smooth animations and responsive controls.",
+      tech: ["JavaScript", "HTML", "CSS", "React"],
+      link: "https://car-driving-game-pearl.vercel.app/"
     }
   ];
 
