@@ -10,10 +10,10 @@ function App() {
       link: "https://student-syllabus-system.vercel.app/"
     },
     {
-      title: "Task Management App",
-      description: "A collaborative productivity tool for organizing tasks, setting deadlines, and tracking team progress in real-time.",
-      tech: ["React", "Firebase", "CSS"],
-      link: "#"
+      title: "Client Management System",
+      description: "A comprehensive system for managing client information, tracking interactions, and streamlining communication.",
+      tech: ["HTML", "JavaScript", "CSS", "MySQL", "node.js"],
+      link: "https://client-lead-management-system-green.vercel.app/"
     },
     {
       title: "Weather Dashboard",
