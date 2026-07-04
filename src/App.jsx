@@ -20,6 +20,12 @@ function App() {
       description: "An interactive driving game built with React and Canvas API, featuring smooth animations and responsive controls.",
       tech: ["JavaScript", "HTML", "CSS", "React"],
       link: "https://car-driving-game-pearl.vercel.app/"
+    },
+    {
+      title: "MuscleTech GYM",
+      description: "An local Business app , that will help small Gyms to manage their members and  built with React and Canvas API, featuring smooth animations and responsive controls.",
+      tech: ["JavaScript", "HTML", "CSS"],
+      link: "https://muscle-tech-gym-rho.vercel.app/"
     }
   ];
 
@@ -51,7 +57,7 @@ function App() {
         <h2 className="section-title">About Me</h2>
         <div style={{ color: 'var(--text-muted)', fontSize: '1.15rem', maxWidth: '800px', margin: '0 auto', textAlign: 'center', lineHeight: '1.8' }}>
           <p style={{ marginBottom: '1.5rem' }}>
-            Hello! I'm a passionate web developer who loves creating beautiful and functional web applications. 
+            Hello! I'm a passionate web developer who loves creating beautiful and functional web applications.
             My journey in web development started a few years ago, and since then, I've been constantly learning and improving my skills to stay up-to-date with the latest technologies.
           </p>
           <p>
