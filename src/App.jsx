@@ -26,6 +26,12 @@ function App() {
       description: "An local Business app , that will help small Gyms to manage their members and  built with React and Canvas API, featuring smooth animations and responsive controls.",
       tech: ["JavaScript", "HTML", "CSS"],
       link: "https://muscle-tech-gym-rho.vercel.app/"
+    },
+    {
+      title: "Titanic Passenger Survival Study",
+      description: "A data analysis project that explores the survival rates of passengers on the Titanic, using statistical methods and visualizations to uncover insights.",
+      tech: ["Python", "Pandas", "Matplotlib", "Seaborn"],
+      link: "https://titanic-passenger-survival-study.vercel.app/"
     }
   ];
 
