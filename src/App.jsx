@@ -112,8 +112,8 @@ function App() {
   return (
     <div className="portfolio-container">
       {/* Top Scroll Progress Bar */}
-      <div 
-        className="scroll-progress-bar" 
+      <div
+        className="scroll-progress-bar"
         style={{ width: `${scrollProgress}%` }}
         role="progressbar"
         aria-valuenow={Math.round(scrollProgress)}
@@ -144,7 +144,7 @@ function App() {
           <h1>Hi, I'm <span>Mohammad Haaris</span></h1>
           <h2>Full Stack Developer</h2>
           <p>
-            I craft visually stunning, responsive, and high-performance digital experiences. 
+            I craft visually stunning, responsive, and high-performance digital experiences.
             Passionate about transforming creative concepts into elegant, intuitive web applications.
           </p>
           <div className="hero-actions">
@@ -166,13 +166,13 @@ function App() {
           <div className="standing-frame">
             <div className="standing-aura"></div>
             <div className="standing-card">
-              <img 
-                src="/profile.jpg" 
-                alt="Mohammad Haaris standing portrait" 
-                className="standing-image" 
+              <img
+                src="/profile.jpg"
+                alt="Mohammad Haaris standing portrait"
+                className="standing-image"
               />
             </div>
-            
+
             {/* Floating Info Chips */}
             <div className="standing-chip chip-top">
               <span className="chip-icon">⚡</span>
@@ -206,7 +206,7 @@ function App() {
               fluid user interfaces and reliable back-end systems.
             </p>
             <p>
-              I specialize in <strong>React, modern JavaScript, and full-stack web architectures</strong>. 
+              I specialize in <strong>React, modern JavaScript, and full-stack web architectures</strong>.
               I pride myself on writing clean, accessible code, designing frictionless experiences, and solving intricate problems
               with thoughtful technical solutions.
             </p>
@@ -230,8 +230,8 @@ function App() {
         </div>
         <div className="projects-grid">
           {projects.map((project, index) => (
-            <div 
-              className={`project-card reveal stagger-${(index % 5) + 1}`} 
+            <div
+              className={`project-card reveal stagger-${(index % 5) + 1}`}
               key={index}
             >
               <div className="project-icon-badge">
@@ -245,10 +245,10 @@ function App() {
                 ))}
               </div>
               <div className="project-card-footer">
-                <a 
-                  href={project.link} 
-                  className="btn-card" 
-                  target="_blank" 
+                <a
+                  href={project.link}
+                  className="btn-card"
+                  target="_blank"
                   rel="noopener noreferrer"
                   aria-label={`View live demo of ${project.title}`}
                 >
@@ -274,8 +274,8 @@ function App() {
             Whether you have an upcoming project, a question about my work, or just want to say hi,
             I'm always excited to connect! Drop me a message and I'll get back to you promptly.
           </p>
-          <a 
-            href="mailto:haaruhaaris@gmail.com" 
+          <a
+            href="mailto:haaruhaaris@gmail.com"
             className="btn btn-primary contact-email-link"
           >
             <span>Say Hello</span>
@@ -288,7 +288,7 @@ function App() {
       </section>
 
       {/* Floating Back to Top */}
-      <button 
+      <button
         className={`back-to-top ${showBackToTop ? 'visible' : ''}`}
         onClick={scrollToTop}
         aria-label="Scroll back to top"
@@ -302,7 +302,6 @@ function App() {
       {/* Footer */}
       <footer>
         <p>
-          Designed & Built with <span>Midnight Indigo & Vanilla</span> &bull; &copy; {new Date().getFullYear()} Mohammad Haaris
         </p>
       </footer>
     </div>
